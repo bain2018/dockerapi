@@ -39,7 +39,7 @@ class AttachWebsocketStream
             'opcode' => 1, // We always send text
             'mask' => 1,
             'len' => \strlen($data),
-            'mask_key' => \substr(\md5(\uniqid()), $rand, 4),
+            'mask_key' => \substr(\md5(\uniqid('', true)), $rand, 4),
             'data' => $data,
         ];
 
