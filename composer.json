@@ -30,16 +30,5 @@
     "require-dev": {
         "amphp/artax": "^3.0",
         "amphp/socket": "^0.10.5"
-    },
-    "conflict": {
-        "amphp/socket": "<0.10.5",
-        "amphp/artax": "<3.0"
-    },
-
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.x-dev"
-        }
-    },
-    "prefer-stable": true
+    }
 }
