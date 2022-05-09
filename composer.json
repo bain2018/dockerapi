@@ -16,7 +16,7 @@
     "require": {
         "php": ">=8.0",
         "bain2018/dockerphpapi": "^5.0.0",
-        "guzzlehttp/psr7": "2.2.1",
+        "guzzlehttp/psr7": "dev-master",
         "php-http/client-common": "^2.5.0",
         "php-http/socket-client": "^2.1.0",
         "php-http/message": "^1.0",
