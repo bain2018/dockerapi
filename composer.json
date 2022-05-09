@@ -16,7 +16,7 @@
     "require": {
         "php": ">=8.0",
         "bain2018/dockerphpapi": "^5.0.0",
-        "guzzlehttp/psr7": "2.2.1",
+        "guzzlehttp/psr7": "^1.2",
         "php-http/client-common": "^2.5.0",
         "php-http/socket-client": "^2.1.0",
         "php-http/message": "^1.0",
@@ -30,6 +30,11 @@
     "require-dev": {
         "amphp/artax": "^3.0",
         "amphp/socket": "^0.10.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
